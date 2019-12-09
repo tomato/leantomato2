@@ -32,6 +32,30 @@ header .banner {
 
 }
 
+article {
+    
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px;
+    clear: both;
+}
+
+article img {
+    width: 300px;
+    margin: 10px;
+}
+
+@media (min-width: 600px){
+    article.right-article img {
+        float: left;
+    }
+
+    article.left-article img {
+        float: right;
+    }
+}
+
 .tomato{
     color: #B70505;
+    font-weight: 700;
 }
