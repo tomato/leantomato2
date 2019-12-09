@@ -11,6 +11,8 @@ body {
     margin: 0px;
 }
 
+img { width: 100%;}
+
 header h1{
     font-family: 'Montserrat', sans-serif;
     padding: 0 10px;
@@ -41,7 +43,7 @@ article {
 }
 
 article.right-article img, article.left-article img {
-    width: 300px;
+    max-width: 300px;
     margin: 10px;
 }
 
