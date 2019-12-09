@@ -40,7 +40,7 @@ article {
     clear: both;
 }
 
-article img {
+article.right-article img, article.left-article img {
     width: 300px;
     margin: 10px;
 }
@@ -55,7 +55,28 @@ article img {
     }
 }
 
+article.approach img {
+    display:block;
+    max-width: 400px;
+    float: right;
+
+}
+
+section { 
+    margin: 0 auto;
+    clear:both;
+    padding: 0 30px;
+    max-width: 600px;
+}
+
+
 .tomato{
     color: #B70505;
     font-weight: 700;
+}
+
+#corner-bulb {
+    float:right;
+    margin-top:-75px;
+    width:100px;
 }
